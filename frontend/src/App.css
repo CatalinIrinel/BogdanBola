@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #08510a;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+}
+
+.loglink {
+  cursor: default;
+}
+strong {
+  font-size: 18px;
+}
+.callToAction::before {
+  content: '';
+  position: absolute;
+  z-index: 1000;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* about divider */
+.custom-shape-divider-bottom-1668967835 {
+  position: absolute;
+  bottom: -0.5px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1000;
+}
+
+.custom-shape-divider-bottom-1668967835 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1668967835 .shape-fill {
+  fill: #f0eeee;
+}
+.custom-shape-divider-bottom-1668967835 .shape-fill2 {
+  fill: #187718;
+}
+.despreText {
+  column-count: 2;
+}
+
+.slick-slide div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slick-slider > .slick-track > .slick-slide > div > .css-9hss66 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-shape-divider-bottom-1668967835 {
+    bottom: -0.5px;
+  }
+
+  .despreText {
+    column-count: 1;
+  }
+}
